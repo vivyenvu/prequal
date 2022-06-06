@@ -58,12 +58,12 @@
             test.push(chevy);
 
             for (var i = 0; i<test.length; i++) { 
-            var worthALook = prequal (taxi);
+            var worthALook = prequal (test[i]);
                 if (worthALook) {
-                    console.log("You gotta check out this " + taxi.make + " " + taxi.model);
+                    console.log("You gotta check out this " + test[i].make + " " + test[i].model);
                 }
                 else {
-                    console.log("You should really pass on the " + taxi.make + " "  + taxi.model);
+                    console.log("You should really pass on the " + test[i].make + " "  + test[i].model);
                 }
             }
         </script>
